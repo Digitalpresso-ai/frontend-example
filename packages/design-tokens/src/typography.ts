@@ -35,7 +35,3 @@ export const letterSpacing = {
   normal: 0,
 } as const
 
-export type FontSizes = typeof fontSizes
-export type FontWeights = typeof fontWeights
-export type LineHeights = typeof lineHeights
-export type LetterSpacing = typeof letterSpacing

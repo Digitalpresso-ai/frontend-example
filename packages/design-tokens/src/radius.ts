@@ -9,6 +9,6 @@ export const radius = {
   '3xl': 24,
   '4xl': 32,
   full: 9999,
-} as const
+} as const;
 
-export type Radius = typeof radius
+export type RadiusToken = keyof typeof radius;

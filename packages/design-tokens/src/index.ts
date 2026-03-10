@@ -1,14 +1,5 @@
-export { colors, type Colors } from './colors'
-export {
-  fontSizes,
-  fontWeights,
-  lineHeights,
-  letterSpacing,
-  type FontSizes,
-  type FontWeights,
-  type LineHeights,
-  type LetterSpacing,
-} from './typography'
+export { colors, type ColorToken } from './colors'
+export { fontSizes, fontWeights, lineHeights, letterSpacing} from './typography'
 export { spacing, type Spacing } from './spacing'
-export { radius, type Radius } from './radius'
+export { radius, type RadiusToken } from './radius'
 export { shadows, insetShadows, type Shadows, type InsetShadows } from './shadows'

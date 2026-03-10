@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { TamaguiProvider } from "@repo/ui/tamagui-provider";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,7 +25,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <TamaguiProvider defaultTheme="light">
         {children}
+        </TamaguiProvider>
       </body>
     </html>
   );
